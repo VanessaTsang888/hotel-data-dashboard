@@ -32,7 +32,7 @@ I am using the [Landon Hotel - sample data](https://www.landonhotel.com/) becaus
 - Navigate to the directory
 - Run `pip install -r requirements.txt` to install dependencies
 - Run
-  - `Landon_Hotel_Dashboard.py` # to run the file. Browser will launch in the URL: http://localhost:8501/
+  - `streamlit run Landon_Hotel_Dashboard.py` # to run the file. Browser will launch in the URL: http://localhost:8501/
 
 ### Dependencies
 
