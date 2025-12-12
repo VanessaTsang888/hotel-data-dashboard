@@ -1,4 +1,4 @@
-# Use AI to Explore and Summarize our Data
+# Use AI to Explore and Summarize our Data - via user's questions 
 
 # Import packages
 import streamlit as st
