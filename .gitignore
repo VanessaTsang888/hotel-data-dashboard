@@ -2,6 +2,30 @@
 
 # Ignore these files
 pyvenv.cfg
+openai_key.txt
+*README-working-progress.md
+cat > .gitignore << 'EOF'
+# Virtual Environment
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+
+# Python
+*.pkl
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# API Keys
+openai_key.txt
+
+# OS Files
+.DS_Store
+.vscode/
+EOF
 
 # Ignore these directories
 bin/
@@ -9,3 +33,4 @@ etc/
 include/
 lib/
 share/
+docs/
